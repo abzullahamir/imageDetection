@@ -1,2 +1,4 @@
 # imageDetection
-the project reads 2 pictures as pixels, along their color channels; using the read info to find one picture as a subscript of the other.
+This project uses stb_image.h to read the pixels and the color channels of 2 pictures and stores them in arrays
+the 2 arrays are used to find one as a subscript of the other, using the needle in haystack logic
+it implements image detection including scenarios where the target image is rotated, flipped, rotated + flipped in every orientation.
